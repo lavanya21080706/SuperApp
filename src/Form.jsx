@@ -1,9 +1,11 @@
 import React, {useState} from "react";
+import { useNavigate } from "react-router-dom";
 import './App.css';
 import formImage from './assets/formImage.png';
 
 
 function Form() {  
+  const navigate = useNavigate();
   const [name, setName] = useState('')
   const [username, setUserName] = useState('')
   const [email, setEmail] = useState('');
@@ -64,6 +66,7 @@ function Form() {
       };
   
       localStorage.setItem('formData', JSON.stringify(formData));
+      navigate('/categoryPage')
     }
   }
 
