@@ -10,6 +10,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Form />} />
         <Route path="/categoryPage" element={<Category />} />
+        {/* <Route path = "/countdown" element={<Count />} /> */}
       </Routes>
     </Router>
 

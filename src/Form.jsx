@@ -79,7 +79,7 @@ function Form() {
         </div>
        </div>
        <div className="form_right_container">
-            <p className="form_heading">Super app</p>
+            <p className="heading">Super app</p>
             <p className="create">Create your new account</p> <br />       
             <form>
               <input type="text" placeholder="Name" className="name" onChange={(e) => setName(e.target.value)}/>
