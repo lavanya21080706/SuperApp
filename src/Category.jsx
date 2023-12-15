@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
+import { useNavigate } from "react-router-dom";
 import Action from './images/Action.jpg';
 import Drama from './images/Drama.jpg';
 import Fantasy from './images/Fantasy.jpg';
@@ -13,6 +14,7 @@ import Vector from './images/Vector.jpg'
 
 
 function Category() {
+  const navigate = useNavigate();
 
   const containers = [
     { id: 1, label: 'Action', image: Action, color: "#FF5209" },
@@ -35,6 +37,12 @@ function Category() {
       setSelectedLabels(JSON.parse(storedCategories));
     }
   }, []);
+
+  // useEffect(() => {
+  //   return () => {
+  //     localStorage.removeItem('selectedCategories');
+  //   };
+  // }, []);
 
   const handleContainerClick = (id, label) => {
     const updatedSelection = new Set(selectedContainers);
@@ -72,6 +80,7 @@ function Category() {
     if (selectedLabels.length < 3) {
       setRequired('Minimum 3 category required');
     } 
+    navigate('/profile')
   }
 
   

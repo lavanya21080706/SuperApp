@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+.page3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.left_profile {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.right_profile {
+    width: 23.9375rem;
+    height: 43.6875rem;
+    flex-shrink: 0;
+    border: 1px solid #ffffff;
+    border-radius: 1.1875rem;
+    background: #ffffff;
+    margin-right: 2rem
+}
+
+.user_profile {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    align-items: center;
+    width: 26.6875rem;
+    height: 14.9375rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem;
+    background: #5746EA;
+}
+
+.notes {
+    width: 25.375rem;
+    height: 26.9375rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem;
+    background: #F1C75B;
+    margin-left: 2rem;
+}
+
+.lower {
+    padding-left: 0rem;
+}
+
+
+.upper {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.browse {
+    width: 11.1875rem;
+    height: 3.1325rem;
+    flex-shrink: 0;
+    border-radius: 2.17356rem;
+    border: solid #148A08;
+    background: #148A08;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.47038rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 92.2%;
+    letter-spacing: 0.02944rem;
+    position: absolute;
+    top: 46rem;
+    left: 73rem
+}
+
+.user {
+    padding-top: 1rem;
+    width: 5.8125rem;
+    height: 13.6875rem;
+    flex-shrink: 0;
+    border-radius: 4.65144rem;
+    box-shadow: 0px 2.685px 2.148px 0px rgba(0, 0, 0, 0.31);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_details {
+    color: #FFF;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.30919rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.188%;
+    letter-spacing: 0.04619rem;
+    width: 13.31163rem;
+    height: 0.97931rem;
+    flex-shrink: 0;
+}
+
+.labels {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.4375rem;
+    height: 2.1875rem;
+    flex-shrink: 0;
+    border-radius: 1.3125rem;
+    background: #9F94FF;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%;
+    letter-spacing: 0.02rem;
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.all_notes {
+    padding-left: 2rem;
+    width: 11.5rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.688%;
+    letter-spacing: 0.0475rem;
+}
+
+.textarea {
+    margin-left: 2rem;
+    width: 22.375rem;
+    height: 19.4375rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3125rem;
+    line-height: 105.688%;
+    letter-spacing: 0.0525rem;
+    background: #F1C75B;
+    border: 1px solid #F1C75B;
+}
+
+.selected-labels {
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.weather {
+    width: 26.6875rem;
+    height: 11.0625rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem;
+    background: #101744;
+}
+
+.header_weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 26.75rem;
+    height: 4.04781rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem 1.1875rem 0% 0%;
+    background: #FF4ADE;
+}
+
+.header_weather p {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.44125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 141.688%;
+    letter-spacing: 0.06881rem;
+}
+
+.weather_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25.75rem;
+    height: 5.463rem;
+    flex-shrink: 0;
+}
+
+.weather_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.icon {
+    width: 5.80169rem;
+    height: 5.18338rem;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.weather_desc p {
+    width: 8.13925rem;
+    height: 0.9645rem;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9645rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.line {
+    margin: 0%;
+    padding: 0%;
+    width: 0.08544rem;
+    height: 2.96063rem;
+    background: #FFF;
+}
+
+.pressure_icon {
+    width: 1.21425rem;
+    height: 2.22075rem;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.pressure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-left: 2rem;
+}
+
+.pressure div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pressure span {
+    width: 8.13925rem;
+    height: 0.9645rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9645rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%;
+    padding-left: 1rem;
+}
+
+.pressure p {
+    width: 8.13925rem;
+    height: 0.9645rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9645rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%;
+}
+
+.wind_hum {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.wind,
+.humidity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind_hum img {
+    width: 1.93513rem;
+    height: 1.30619rem;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.wind_hum p {
+    padding: 0%;
+    margin: 0%;
+    width: 4.406rem;
+    height: 0.70825rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%;
+}

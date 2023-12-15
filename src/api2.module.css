@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+
+.newsimage {
+    position: absolute;
+    flex-shrink: 0;
+    border-radius: 19px;
+}
+
+.back {
+    background: rgba(0, 0, 0, 0.74);
+    width: 500px;
+    height: 159px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 335px;
+}
+
+.mobile {
+    width: 435px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.688%;
+    letter-spacing: 0.64px;
+    position: absolute;
+}
+
+#update {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18.249px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+}
+
+.info {
+    background-color: #FFF;
+    height: 180px;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.688%;
+}
+
+.infotext {
+    color: #272727;
+    position: absolute;
+    height: 280px;
+}
+
+.browse {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 23.526px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 92.2%;
+    letter-spacing: 0.471px;
+    border-radius: 34.777px;
+    background: #148A08;
+    width: 179px;
+    height: 45.12px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 260px;
+}
