@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 import Form from './Form.jsx';
 import Category from './Category.jsx';
-import CountdownTimer from './CountdownTimer';
 import Profile from './profile.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Movies from './Movies.jsx';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SuperApp">
       <Routes>
       <Route path="/" element={<Form />} />
         <Route path="/categoryPage" element={<Category />} />
