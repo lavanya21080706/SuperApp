@@ -4,8 +4,11 @@ import News from './News';
 import Weather from './Weather';
 import './page.css';
 import user from './images/user.jpg';
+import { useNavigate } from "react-router-dom";
+
 
 function Profile() {
+    const navigate = useNavigate();
     const [userData, setUserData] = useState(null);
     const [categoryData, setCategoryData] = useState([]);
     const [notes, setNotes] = useState('');
@@ -34,7 +37,9 @@ function Profile() {
         }
     }, []);
 
-
+    const navigation = ()=>{
+        navigate('/movies')
+    }
 
     return (
         <div className="profile_page">
@@ -85,7 +90,7 @@ function Profile() {
                 </div>
 
             </div>
-            <button className="browse">Browse</button>
+            <button className="browse" onClick={navigation}>Browse</button>
         </div>
     );
 }

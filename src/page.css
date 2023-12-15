@@ -323,3 +323,15 @@
     font-weight: 400;
     line-height: 139.688%;
 }
+
+.movies_head {
+    color: #878787;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 139.688%;
+    letter-spacing: 0.0375rem;
+    padding: 0%;
+    margin: 0%;
+}
